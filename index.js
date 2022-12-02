@@ -30,7 +30,7 @@ app.get('/', async (req, res) => {
   try {
     res.send(`Welcome Page`);
   } catch (error) {
-    console.log(error);;
+    console.log(error);
   }
 });
 
